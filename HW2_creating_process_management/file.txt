@@ -1,0 +1,1005 @@
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        468M     0  468M   0% /dev
+tmpfs           477M     0  477M   0% /dev/shm
+USER="Nadia"
+echo "Current directory: $PWD"
+    9  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D"
+   10  ps -ef
+   11  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D"
+   12  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk {rint $1, $2}
+   13  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk print {$1, $2}
+   14  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk print '{$1, $2}'
+   15  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk {print $1, $2}'
+   16  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk '{print $1, $2}'
+   17  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk '{print $2, $3}'
+   18  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk '{print "PID", $2, "PPID", $3}'
+   19  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D" | awk '{print "PID", $2, "PPID", $3}' >> .process_management
+   20  cat .process_management 
+   21  exit
+   22  cd /opt/101025-ptm/SMyshynskyi/LearnScripts/
+   23  ls -al
+   24  cat random_file.sh 
+   25  cd /opt/101025-ptm/SMyshynskyi/LearnScripts/bpdir/
+   26  cat random_file.sh 
+   27  ls -al
+   28  cat filemover.sh 
+   29  pwd
+   30  ls -al
+   31  exit
+   32  cd /opt/101025-ptm/SMyshynskyi/LearnScripts/
+   33  chmod +x git_autocommit.sh 
+   34  ls -al
+   35  nano -l move_random_file.sh
+   36  chmod +x move_random_file.sh 
+   37  ./move_random_file.sh 
+   38  ls -al
+   39  cd /opt/101025-ptm/SMyshynskyi/LearnScripts/random_file/
+   40  ls -al
+   41  ls -al | wc -l
+   42  cd ..
+   43  ls -al
+   44  cd ../txt_dir/
+   45  cd ./txt_dir/
+   46  ls -al
+   47  cd ..
+   48  ls -al
+   49  exit
+   50  cd /opt/121225-ptm
+   51  ls
+   52  ls -la
+   53  cd firemaniak
+   54  env
+   55  export firemaniak_VARIABLE=121225-ptm
+   56  echo $firemaniak_VARIABLE
+   57  date +%D >> .process_managment
+   58  echo "Welcome to Amazon server" >> .process_managment 
+   59  free -h
+   60  free -h >> .process_managment
+   61  nano .process_managment 
+   62  free -h
+   63  free -h | grep Mem 
+   64  free -h | awk {'print S1, S2'}
+   65  free -h | hreb Mem | awk {'print S1, S2'}
+   66  free -h
+   67  free -h | grep Mem 
+   68  free -h | awk {'print S1, S2'}
+   69  free -h
+   70  ps ps psadsadwefsdafdsfdsgfdeafdsfdsfsавыаfdsdstwfwdf
+   71  ds
+   72  f
+   73  top | grep -w "root"
+   74  ps -ef | grep -w "root"
+   75  ps -ef | grep -w "root" | wc -1
+   76  ps -ef | grep -w "root" | wc -l
+   77  ps -ef | grep -w "root" | wc -l >> .process_managment 
+   78  cat .process_managment 
+   79  env
+   80  env | tail -3 | head -l
+   81  env | tail -3 | head -1
+   82  env | tail -3 | hrep Alina
+   83  grep ALINA env
+   84  grep ALINA $env
+   85  grep ALINA $(env)
+   86  env | grep ALINA
+   87  env |grep A
+   88  cd /opt/121225-ptm
+   89  env | grep ALINA
+   90  env | grep A
+   91  env | grep MAIL
+   92  env | grep MAIL >> .process_management 
+   93  cat .process_management 
+   94  nano .process_management 
+   95  ps -ef | grep -w "root" | grep -w "/usr/sbin/sshd -D"
+   96  cat .process_management 
+   97  cd /
+   98  ls
+   99  ls -al
+  100  chattr -p homework6 
+  101  lsattr - R 
+  102  lsattr - R .
+  103  ls -al
+  104  cd /opt/121225-ptm/
+  105  ls
+  106  cd serg
+  107  dh -h | head -3 > file.txt
+  108  dd -h | head -3 > file.txt
+  109  df -h | head -3 > file.txt
+  110  cat file.txt 
+  111  ls -al
+  112  chmod -u rw file.txt 
+  113  chmod -u -rw file.txt 
+  114  ls -al
+  115  cat file.txt 
+  116  chmod u+rw file.txt 
+  117  ls -al
+  118  chmod 755 file.txt 
+  119  ls -al
+  120  chmoв o-rwx file.txt 
+  121  chmod o-rwx file.txt 
+  122  ls -al
+  123  rm file.txt
+  124  df -h | head -3 > file.txt
+  125  ls -al
+  126  chmod o+rwx file.txt
+  127  ls -al
+  128  chmod o-rwx file.txt 
+  129  ls -al
+  130  chmod 070 file.txt 
+  131  ls
+  132  ls -al
+  133  chmod 777 file.txt 
+  134  ls -al
+  135  chmod g+rwx, o-rwx file.txt 
+  136  chmod g+rwx,o-rwx file.txt 
+  137  ls -al
+  138  chmod g+rwx,o-rwx,u-rwx file.txt 
+  139  ls -al
+  140  touch myfirstbashscript.sh 
+  141  chmod +x myfirstbashscript.sh 
+  142  ls -al
+  143  export USER=popov
+  144  env
+  145  env | grep "USER"
+  146  echo -e "\"I am from \:"pwd"
+  147  echo -e "\"I am from :\"pwd"
+  148  echo -e "echo \"I am from :\" && pwd"
+  149  echo -e "echo \"I am from :\" && pwd" >> myfirstbashscript.sh 
+  150  ./myfirstbashscript.sh 
+  151  echo -e "echo \"I am from :\" $(pwd)" >> myfirstbashscript.sh 
+  152  ./myfirstbashscript.sh 
+  153  logout
+  154  exit
+  155  mc
+  156  ls -sal
+  157  touch .process_management
+  158  ls
+  159  ls -sal
+  160  history + grep date
+  161  history | grep date
+  162  date +%D >> .process_management
+  163  less .process_management
+  164  touch Welcome to Amazon server >> .process_management
+  165  less .process_management
+  166  echo Welcome to Amazon server >> .process_management
+  167  less .process_management
+  168  ps auxf
+  169  ps
+  170  free -h
+  171  history | free
+  172  history | grep free
+  173  free -h | grep 'Mem' | awk '{print $1, $2}'
+  174  free -h | grep 'Mem' | awk '{print $1, $2}' >> .process_management
+  175  top | grep 
+  176  top | grep 'Mem' | awk '{print $1, $2}'
+  177  toph | grep 'Mem' | awk '{print $1, $2}'
+  178  htop | grep mem
+  179  top | grep mem
+  180  history | grep top
+  181  top | grep 'Mem' >> .process_management
+  182  history | grep top | awk '{print $1, $2}'
+  183  top |grep 'mem' | awk '{print $1, $2}'
+  184  top |grep 'Mem' | awk '{print $1, $2}'
+  185  top |grep "Mem" | awk '{print $1, $2}'
+  186  top |grep "Mem"
+  187  history | grep top
+  188  top -b |grep "Mem"
+  189  top -b -n 1|grep "Mem"
+  190  man top
+  191  top -n 1 | grep "Mem"
+  192  top -n 1 | grep Mem
+  193  top -n 1 | grep mem
+  194  top -n 1 | grep Mem | awk '{print $1, $2}'
+  195  top -n 1 | grep Mem | awk '{print $1, $2, $3}'
+  196  top -n 1 | grep Mem | awk '{print $1, $2, $4}'
+  197  top -n 1 | grep Mem | awk '{print $1, $2, $4}' | head
+  198  top -n 1 | grep Mem | awk '{print $1, $2, $4}' | head -1
+  199  top -n 1 | grep Mem | awk '{print $1, $2, $4, $5}'
+  200  top -n 1 | grep Mem | awk '{print $1, $2, $4, $5}' | head -1 >> .process_manager
+  201  echo "Welcome to Amazon server" >> .process_management
+  202  less .process_management
+  203  echo .process_management
+  204  cat .process_management
+  205  top -n 1 | grep Mem | awk '{print $1, $2, $4, $5}' | head -1 >> .process_manager
+  206  cat .process_management
+  207  top -n 1 | grep Mem | awk '{print $1, $2, $4, $5}' | head -1
+  208  ls
+  209  mc
+  210  top -n 1 | grep Mem | awk '{print $1, $2, $4, $5}' | head -1
+  211  top -n 1 | grep Mem | awk '{print $1, $2, $4}' | head -1
+  212  top -n 1 | grep Mem | awk '{print $1, $2, $4}' | head -1 >> .process_management
+  213  mc
+  214  env
+  215  history | env
+  216  history | grep env
+  217  history | grep export
+  218  export export VNMAD_VARIABLE
+  219  export VNMAD_VARIABLE=121225-ptm
+  220  env
+  221  touch /opt/121225-ptm/.process_management
+  222  ls -sal
+  223  cat .process_management
+  224  rm -f .process_management
+  225  ls -sal
+  226  touch /opt/121225-ptm/vnmad/.process_management
+  227  ls -sal
+  228  mc
+  229  ps auxf | grep root | wc -l
+  230  ps auxf | grep root | wc -l >> ./process_management
+  231  cat ./process_management
+  232  ps auxf | grep root
+  233  ls
+  234  cd /opt/121225-ptm/
+  235  ls
+  236  ls -l
+  237  cd trofimov/
+  238  touch filetest.txt
+  239  ls -l
+  240  ls /
+  241  ls -l
+  242  ls /
+  243  ls / -l
+  244  ls -l
+  245  chmod ugo+rwx filetest.txt 
+  246  ls -l
+  247  filetext.txt
+  248  chmod o+r filetest.txt 
+  249  ls -l
+  250  chmod ugo+r filetest.txt 
+  251  ls -l
+  252  chmod o+r filetest.txt 
+  253  ls -l
+  254  chmod ugo-rwx filetest.txt 
+  255  ls -l
+  256  rm filetext.txt
+  257  ls -l
+  258  cat filetext.txt
+  259  ls -l
+  260  nano filetest.txt
+  261  rm filetext.txt
+  262  chmod ugo+rwx filetest.txt 
+  263  rm filetext.txt
+  264  pwd
+  265  ls
+  266  rm filetest.txt
+  267  ls
+  268  touch filetest.txt
+  269  chmod ugo-rwx filetest.txt 
+  270  rm filetest.txt
+  271  ls
+  272  touch filetest.txt
+  273  chmod ugo+rwx filetest.txt 
+  274  rm filetest.txt
+  275  ls
+  276  touch filetest.txt
+  277  chmod ugo-rwx filetest.txt 
+  278  ls
+  279  ls -l
+  280  rm filetest.txt
+  281  ls
+  282  touch filetest.txt
+  283  chmod ugo+rwx filetest.txt 
+  284  ls -l
+  285  chmod u+rw filetest.txt 
+  286  ls -l
+  287  chmod u+r filetest.txt 
+  288  ls -l
+  289  chmod u+rw filetest.txt 
+  290  chmod u+r filetest.txt 
+  291  ls -l
+  292  chmod u+rwx filetest.txt 
+  293  ls -l
+  294  chmod ugo-rwx filetest.txt 
+  295  ls -l
+  296  chmod u+rwx filetest.txt 
+  297  ls -l
+  298  chmod g+rx filetest.txt 
+  299  ls -l
+  300  chmod o+r filetest.txt 
+  301  ls -l
+  302  touch filetest2
+  303  chmod ugo+rwx filetest2
+  304  ls -l
+  305  chmod o+r filetest2
+  306  ls -l
+  307  chmod o+r filetest2
+  308  chmod ugo-rws filetest2
+  309  ls -l
+  310  chmod ugo-rwx filetest2
+  311  ls -l
+  312  chmod o+r filetest2
+  313  ls -l
+  314  chmod u+rwx filetest2
+  315  ls -l
+  316  chmod g+rx filetest2
+  317  ls -l
+  318  chmod --help
+  319  ls -l
+  320  chmod 0 filetest2
+  321  ls -l
+  322  chmod 7 filetest2
+  323  ls -l
+  324  chmod 77 filetest2
+  325  ls -l
+  326  chmod 777 filetest2
+  327  ls -l
+  328  chmod 776 filetest2
+  329  ls -l
+  330  chmod 775 filetest2
+  331  ls -l
+  332  chmod 774 filetest2
+  333  ls -l
+  334  chmod 774 filetest2
+  335  ls -l
+  336  cd ..
+  337  ls
+  338  ls -l
+  339  chmod 750 trofimov
+  340  ls -l
+  341  cd trofimov
+  342  ls
+  343  ls -l
+  344  cd ..
+  345  ls -l
+  346  cd trofimov/
+  347  touch file555
+  348  chmod 0 file555
+  349  ls -l
+  350  rm file555
+  351  ls -l
+  352  cd ..
+  353  ls -l
+  354  chmod +t trofimov
+  355  ls -l
+  356  cd trofimov/
+  357  ls -l
+  358  touch file555
+  359  ls -l
+  360  rm file555
+  361  ls -l
+  362  touch file555
+  363  ls -l
+  364  rm file555
+  365  ls -l
+  366  history
+  367  ls -l
+  368  touch file411
+  369  rm file411
+  370  ls -l
+  371  ls -la
+  372  rm privet_banditi 
+  373  ls -l
+  374  sudo adduser vasya
+  375  sudo id vasya
+  376  exit
+  377  cd /opt/121225-ptm/
+  378  cd meshveliani
+  379  ls
+  380  cd MESHVELIANI
+  381  touch txt.txt
+  382  ls -l
+  383  ls -lh
+  384  ls
+  385  ls /
+  386  ls -l /
+  387  ls -l
+  388  chmod ugo+
+  389  chmod ugo+rwx txt.txt 
+  390  ls -l
+  391  chmod ugo-rwx
+  392  chmod ugo-rwx txt.txt 
+  393  ls -l
+  394  cat txt.txt 
+  395  ls -l
+  396  chmod u+rw txt.txt 
+  397  ls -l
+  398  cat txt.txt 
+  399  chmod ugo-rwx txt.txt 
+  400  ls -l
+  401  chmod ugo+rwx txt.txt 
+  402  ls -l
+  403  chmod ugo-rwx txt.txt 
+  404  ls -l
+  405  chmod u+rwx txt.txt 
+  406  ls -l
+  407  chmod g+rwx txt.txt 
+  408  ls -l
+  409  chmod g-w txt.txt 
+  410  ls -l
+  411  chmod o+r txt.txt 
+  412  ls -l
+  413  ls -l
+  414  chmod u+rwx,g+rx,o+r txt.txt 
+  415  ls -l
+  416  chmod 0 txt.txt 
+  417  ls -l
+  418  chmod 7 txt.txt 
+  419  ls -l
+  420  chmod 77 txt.txt 
+  421  ls -l
+  422  chmod 777 txt.txt 
+  423  ls -l
+  424  chmod 007 txt.txt 
+  425  ls -l
+  426  chmod 744 txt.txt 
+  427  ls -l
+  428  chmod 755 txt.txt 
+  429  ls -l
+  430  cd ..
+  431  ls -l
+  432  chmod u-x MESHVELIANI
+  433  cd MESHVELIANI
+  434  ls MESSHVELIANI
+  435  chmod u+x MESHVELIANI
+  436  ls -l
+  437  chmod u+x MESHVELIANI
+  438  ls MESHVELIANI
+  439  touch txt.txt2
+  440  ls -l
+  441  mv txt.txt2 MESHVELIANI
+  442  ls MESHVELIANI
+  443  chmod -R 0 MESVHVELIANI
+  444  chmod -R 0 MESHVELIANI
+  445  chmod -R MESHVELIANI/
+  446  chmod -R MESHVELIANI/*
+  447  chmod -R 0 MESHVELIANI/*
+  448  ls -l
+  449  chmod 777 MESHVELIANI
+  450  ls -l
+  451  chmod -R 0 MESHVELIANI
+  452  ls -l
+  453  chmod -R 0 MESHVELIANI
+  454  chmod 777 MESHVELIANI
+  455  ls -l
+  456  chmod -R 0 MESHVELIANI/*
+  457  ls -l
+  458  ls -l MESHVELIANI
+  459  cd MESHVELIANI
+  460  cd
+  461  ls -l
+  462  cd MESHVELIANI
+  463  ls -la
+  464  ls -l MESHVELIANI
+  465  ls  MESHVELIANI
+  466  cd opt/121225/MESHVELIANI
+  467  cd opt/121225
+  468  exit
+  469  ps -u root -f | wc -l
+  470  ps auxf | grep root | wc -l
+  471  ps auxf | grep root
+  472  ps auxf | grep root | wc -l
+  473  ps -u root -f | wc -l
+  474  ps auxf | awk '$1=="root"' | wc -l
+  475  ps auxf | awk '$1=="root"' | wc -l >> .process_management
+  476  env | grep VNMAD
+  477  env
+  478  export VNMAD_VARIABLE=121225-ptm
+  479  env | grep VNMAD
+  480  env | grep VNMAD_VARIABLE
+  481  cd /opt/121225-ptm/vnmad
+  482  ps auxf | awk '$1=="root"' | wc -l >> .process_management
+  483  env | grep VNMAD_VARIABLE >> .process_management
+  484  mc
+  485  mc
+  486  ps -eo pid,ppid,cmd | grep "/usr/sbin/sshd -D" | awk '{print($1, $2)}
+  487  ps auxf | grep sshd
+  488  ps auxf | grep "sshd -D"
+  489  ps auxf | grep "sshd -D" | grep root
+  490  ps auxf -eo pid | grep "sshd -D" | grep root
+  491  ps -eo pid
+  492  ps -eo pid,ppid
+  493  ps -eo pid,ppid,cmd
+  494  ps -eo pid,ppid,cmd | grep "sshd -D"
+  495  ps auxf | grep "sshd -D" | grep root
+  496  ps uaxf
+  497  ps auxf | grep "sshd -D" | grep root
+  498  ps -eo pid,ppid,cmd | grep "sshd -D"
+  499  ps -eo user,pid,ppid,cmd | grep "sshd -D" | grep root
+  500  ps -eo user,pid,ppid,cmd | grep "sshd -D" | grep root | awk '{print $2, $3}'
+  501  cd /opt/121225-ptm/baranovskyi/
+  502  ls
+  503  ls -la
+  504  tree
+  505  touch test.txt
+  506  ls -l
+  507  ls /
+  508  cd ..
+  509  ls -l
+  510  chmod u-x baranovskyi/
+  511  cd baranovskyi/
+  512  ls -l
+  513  chmod u+x baranovskyi/
+  514  ls -l
+  515  history
+  516  exit
+  517  cd opt/121225
+  518  cd /opt/121225
+  519  cd /opt/121225-tmp
+  520  cd /opt/121225-tmp/
+  521  cd /opt/121225-ptm
+  522  sudo -i -u
+  523  exit
+  524  su - vasya
+  525  sudo -i -u vasya
+  526  pwd
+  527  cd /opt/121225-ptm/
+  528  ls -l
+  529  cd trofimov/
+  530  ls -l
+  531  exit
+  532  pwd
+  533  /opt
+  534  cd /opt
+  535  pwd
+  536  cd /home
+  537  pwd
+  538  tree
+  539  cd /opt
+  540  ls -la
+  541  cd /opt/121225-ptm/nikita/
+  542  pwd
+  543  ls -la
+  544  ls -l
+  545  tree
+  546  cd /opt/121225-ptm/
+  547  ls -la
+  548  cd /opt/121225-ptm/nikita
+  549  chmod u-rwx nikita
+  550  history
+  551  cd /opt/121225-ptm/
+  552  chmod u-rwx nikita
+  553  chmod g-rx nikita
+  554  chmod 0-r nikita
+  555  ls -l
+  556  cd /opt/121225-ptm/nikita
+  557  chmod u+rwx nikita
+  558  cd /opt/121225-ptm/nikita
+  559  cd /opt/121225-ptm
+  560  ls -l
+  561  cd /opt/121225-ptm/
+  562  exit
+  563  cd cd
+  564  cd
+  565  ^V
+  566  cd /opt/121225-ptm/oleg_v/
+  567  touch test_1.txt
+  568  ls -lh
+  569  ls /
+  570  ls -l /
+  571  ls -l
+  572  chmod ugo+rwx test_1.txt 
+  573  ls -l
+  574  chmod ugo-rwx test_1.txt 
+  575  ls -l
+  576  cat test_1.txt
+  577  chmod u+rw test_1.txt 
+  578  ls -l
+  579  cat test_1.txt
+  580  chmod u+rwx test_1.txt 
+  581  ls -l
+  582  chmod g+rx test_1.txt 
+  583  ls -l
+  584  chmod o+r test_1.txt 
+  585  ls -l
+  586  chmod ugo+rwx test_1.txt 
+  587  ls -l
+  588  chmod a+rwx test_1.txt 
+  589  ls -l
+  590  chmod ugo-rwx test_1.txt 
+  591  ls -l
+  592  chmod u+rwx,g+rx,o+r test_1.txt 
+  593  ls -l
+  594  chmod 0 test_1.txt
+  595  ls -l
+  596  chmod 7 test_1.txt
+  597  ls -l
+  598  chmod 777 test_1.txt
+  599  ls -l
+  600  chmod 007 test_1.txt
+  601  chmod 700 test_1.txt
+  602  ls -l
+  603  chmod 744 test_1.txt
+  604  ls -l
+  605  cd //
+  606  cd ..
+  607  ls -l
+  608  cd /opt/121225-ptm/oleg_v/
+  609  cd ..
+  610  ls -l
+  611  cd /opt/121225-ptm/oleg_v/
+  612  touch chmod.txt
+  613  ls -l
+  614  chmod -R 0 test_1.txt chmod.txt 
+  615  ls -l
+  616  chmod -R 7 test_1.txt chmod.txt 
+  617  ls -l
+  618  chmod -R 700 test_1.txt chmod.txt 
+  619  ls -l
+  620  cd ..
+  621  chmod -R 0 olev_v/*
+  622  ls -l
+  623  cd /opt/121225-ptm/oleg_v
+  624  ls -l
+  625  cd ..
+  626  chmod +t olev_v/*
+  627  chmod +t olev_v
+  628  chmod o- olev_v
+  629  chmod -R olev_v
+  630  chmod o-x olev_v
+  631  cd oleg_v
+  632  chmod o-x olev_v
+  633  chmod o-x oleg_v
+  634  chmod o-0 oleg_v
+  635  chmod go-w oleg_v
+  636  cd..
+  637  cd ..
+  638  chmod go-w oleg_v
+  639  ls
+  640  ls -l
+  641  chmod go-x oleg_v
+  642  ls -l
+  643  exit
+  644  cd /opt/121225-ptm
+  645  ls -la
+  646  clear
+  647  cd IgorF
+  648  cd ..
+  649  ls
+  650  ls -la
+  651  cd IgoF
+  652  cd IgorF/
+  653  touch histranger.txt
+  654  nano histranger
+  655  ls l
+  656  ls -l
+  657  rm histranger.txt
+  658  ls -la
+  659  ls -ls
+  660  clear
+  661  ls -l
+  662  ls -lh
+  663  ls /
+  664  ls -l /
+  665  chmod
+  666  chmod ugo+rwx histranger 
+  667  ls -la
+  668  chmod ugo-rwx histranger 
+  669  ls -la
+  670  chmod u+rwx histranger 
+  671  ls -la
+  672  chmod g+rx
+  673  chmod g+rx histranger
+  674  chmod o+x histranger
+  675  ls -la
+  676   chmod -R 0 IgorF/
+  677  ls -l IgorF
+  678  cd ..
+  679  ls -l IgorF
+  680   chmod -R 0 IgorF/
+  681  cd IgorF
+  682  ls -la
+  683  chmod 777 IgorF
+  684  ls -la
+  685  cd IgorF
+  686  chmod -R 0 IgorF/
+  687  ls -la
+  688  cd ..
+  689  chmod u+rwx histranger 
+  690  ls -la
+  691  cd IgorF
+  692  chmod u+rwx histranger 
+  693  ls -la
+  694  cd ..
+  695  cd IgorF
+  696  ls -la
+  697  cd ..
+  698  ls -la
+  699  ls -l
+  700  ls -l IgorF/
+  701  chmod -R 0 IgorF/*
+  702  ls -l
+  703  chmod ugo+rwx histranger 
+  704  chmod ugo+rwx IgorF/histranger 
+  705  ls -l
+  706  chmod o+rx IgorF/histranger 
+  707  ls -l
+  708  chmod o+rx IgorF/histranger 
+  709  chmod 644 IgorF/histranger
+  710  cd IgorF
+  711  ls -la
+  712  cd ..
+  713  ls -l
+  714  chmod 755 IgorF/hellostranger
+  715  chmod 755 IgorF/histranger
+  716  ls -l
+  717  find IgorF -type d -exec chmod 755 {} +
+  718  ls -l
+  719  ls -la
+  720  chmod +t IgorF
+  721  ls -la
+  722  cd IgorF
+  723  touch alo
+  724  ls -la
+  725  rm alo
+  726  ls -la
+  727  cd ..
+  728  ls -l
+  729  cd trofimov
+  730  ls -l
+  731  rm file555
+  732  ls -la
+  733  touch privet_banditi
+  734  rm file555
+  735  rm file 411
+  736  cd ..
+  737  ls -la
+  738  cd IgorF
+  739  ls -l
+  740  cd ..
+  741  cd /101025-ptm
+  742  cd 101025-ptm
+  743  ls -la
+  744  cd Bogdan
+  745  ls -l
+  746  nano history.txt
+  747  nano file.txt
+  748  nano task_Bogdan.sh
+  749  cd ..
+  750  ls -l
+  751  cd bhudym
+  752  ls -l
+  753  nano text.txt
+  754  nano task_bhudym.sh
+  755  cp text.txt
+  756  cp text.txt /121225-ptm/MaksymK
+  757  cp text.txt /opt/121225-ptm/MaksymK
+  758  cd ..
+  759  cd 121225-ptm
+  760  ls -l
+  761  cd MaksymK
+  762  ls -la
+  763  cd ..
+  764  cd 101025-ptm
+  765  ls -la
+  766  cd Kris
+  767  ls -la
+  768  cd ..
+  769  cd IgorF
+  770  ls -la
+  771  cd .,.
+  772  cd ..
+  773  ls -la
+  774  cd DmytroK
+  775  ls -la
+  776  cd ..
+  777  cd DmitryP
+  778  ls -la
+  779  nano test.txt
+  780  cp test.txt /opt/121225-ptm/MaksymK
+  781  cd ..
+  782  cd 121225-ptm
+  783  cd MaksymK
+  784  ls -la
+  785  exit
+  786  cd /opt/121225-ptm/suligan/
+  787  ls /
+  788  ls -l /
+  789  ls -l
+  790  chmod ugo+rwx file.txt
+  791  ls -l
+  792  chmod ugo-rwx file.txt
+  793  ls -l
+  794  cat file.txt
+  795  chmod u+rw file.txt 
+  796  ls -l
+  797  chmod ugo-rwx file.txt 
+  798  ls -l
+  799  ls -l
+  800  chmod a-rwx file.txt
+  801  ls -l
+  802  chmod  file.txt
+  803  ls-l
+  804  ls -l
+  805  chmod 0 file.txt
+  806  cd ..
+  807  ls -l
+  808  chmod go-wx suligan
+  809  ls -l
+  810  ls suligan/
+  811  exit
+  812  export NADIA_VARIABLE = 281125-wdm
+  813  export NADIA_VARIABLE=281125-wdm
+  814  touch .project-management /opt/281125-wdm/nadia_ozbey
+  815  echo date > /opt/281125-wdm/nadia_ozbey
+  816  echo date > /opt/281125-wdm/nadia_ozbey/.project-management
+  817  echo "Welcome to Amazon server" >> .project-management.txt
+  818  free | >> .project-management.txt
+  819  ps -ef | grep "root" | wc -l
+  820  env | grep "NADIA_VARIABLE" | >> .project-management.txt
+  821  ps -ef
+  822  ps -ef | grep "usr/sbin/sshd -D"
+  823  ps -ef | grep "usr/sbin/sshd -D" | grep -v grep
+  824  awk '{print "PID", $2, "PPID", $3}' >> .process-management.txt
+  825  cat .process-management.txt
+  826  export NADIA_VARIABLE=281125-wdm
+  827  touch .process_management /opt/281125-wdm/nadia_ozbey
+  828  date >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  829  echo "Welcome to Amazon server" >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  830  free | >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  831  NADIA_VARIABLE=281125-wdm
+  832  touch .process-management /opt/281125-wdm/nadia_ozbey
+  833  date >> /opt/281125[wdm/nadia_ozbey/process-management.txt
+  834  date >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  835  echo "Welcome to Amazon server" >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  836  free
+  837  free -m | grem Mem | awk {'print $2'} 
+  838  free -m | grep Mem | awk {'print $2'}
+  839  free -m | grep Mem | awk {'print $2'} | >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  840  ps -ef | grep [r]oot | wc -l | >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  841  env | grep NADIA | >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  842  ps -ef | grep "usr/sbin/sshd-D" | grep -v grep | awk {'print "PID", $2, "PPID", $3'} >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  843  cat .process-management.txt
+  844  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  845  export NADIA_VARIABLE=281125-wdm
+  846  touch .process-management /opt/281125-wdm/nadia_ozbey/
+  847  ls -la
+  848  ls -ls /opt/281125-wdm/nadia_ozbey
+  849  ls -la /opt/281125-wdm/nadia_ozbey
+  850  date >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  851  cat .process-management.txt
+  852  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  853  vi 281125-wdm/nadia_ozbey/.process-management.txt
+  854  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  855  sed -i '3$d' /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  856  sed -i '3,$d' /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  857  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  858  free -m | grep Mem | awk '{print $2}'
+  859  free -m | grep Mem | awk '[print $2}' >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  860  free -m | grep Mem | awk '{print $2}' >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  861  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  862  ps -ef | grep root | wc -l >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  863  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  864  env | grep NADIA_VARIABLE >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  865  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  866  export NADIA_VARIABLE=281125-wdm
+  867  env | grep NADIA_VARIABLE >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  868  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  869  ps -ef | grep "/usr/sbin/sshd -D" | grep -v grep | awk '{print "PID", $2, "PPID", $3}' >> /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  870  cat /opt/281125-wdm/nadia_ozbey/.process-management.txt
+  871  nao /opt/MESHVELIANI/file.txt
+  872  nano /opt/MESHVELIANI/file.txt
+  873  cd /opt/121225-ptm
+  874  cd /opt/121225-ptm/MESHVELIANI
+  875  nano file.txt
+  876  nano myfirstbashscript.sh
+  877  cat myfirstbashscript.sh
+  878  chmod +x myfirstbashscript.sh
+  879  ls -l myfirstbashscript.sh
+  880  df -h | head -n 3 > /opt/121225-ptm/MESHVELIANI/file.txt
+  881  chmod 0 /opt/121225-ptm/MESHVELIANI/file.txt  
+  882  chmod g+wx /opt/121225-ptm/MESHVELIANI/file.txt
+  883  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  884  chmod 0 /opt/121225-ptm/MESHVELIANI/file.txt  
+  885  chmod a-rwx /opt/121225-ptm/MESHVELIANI/file.txt
+  886  chmod g+wx /opt/121225-ptm/MESHVELIANI/file.txt
+  887  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  888  chmod a-rwx /opt/121225-ptm/MESHVELIANI/file.txt
+  889  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  890  chmod g+wx /opt/121225-ptm/MESHVELIANI/file.txt
+  891  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  892  chmod a-rwx /opt/121225-ptm/MESHVELIANI/file.txt
+  893  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  894  chmod g+wx /opt/121225-ptm/MESHVELIANI/file.txt
+  895  chmod u+r /opt/121225-ptm/MESHVELIANI/file.txt
+  896  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  897  cat /opt/121225-ptm/MESHVELIANI/file.txt | head -n 3
+  898  nano /opt/121225-ptm/MESHVELIANI/myfirstbashscript.sh
+  899  ls -l /opt/121225-ptm/MESHVELIANI/myfirstbashscript.sh
+  900  chmod +x /opt/121225-ptm/MESHVELIANI/myfirstbashscript.sh
+  901  ls -l /opt/121225-ptm/MESHVELIANI/myfirstbashscript.sh
+  902  tail -n 10 /opt/121225-ptm/MESHVELIANI/file.txt
+  903  history >> /opt/121225-ptm/MESHVELIANI/file.txt
+  904  tail -n 10 /opt/121225-ptm/MESHVELIANI/file.txt
+  905  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  906  chmod u+w /opt/121225-ptm/MESHVELIANI/file.txt
+  907  ls -l /opt/121225-ptm/MESHVELIANI/file.txt
+  908  history >> /opt/121225-ptm/MESHVELIANI/file.txt
+  909  tail -n 10 /opt/121225-ptm/MESHVELIANI/file.txt
+  910  tail -n 20 /opt/121225-ptm/MESHVELIANI/file.tx
+  911  tail -n 20 /opt/121225-ptm/MESHVELIANI/file.txt
+  912  tail -n 50 /opt/121225-ptm/MESHVELIANI/file.txt
+  913  exit
+  914  sudo su
+  915  sudo mc
+  916  vi /tmp/file.txt
+  917  ls -sal /tmp/
+  918  vi /tmp/file.txt
+  919  ls -sal /tmp/
+  920  df -h | head -n 3 > /tmp/file.txt
+  921  cat /tmp/file.txt
+  922  ls - sal /tmp/file.txt
+  923  cd /tmp/file.txt
+  924  cd /tmp/
+  925  ls -sal
+  926  chmod g=wx /tmp/file.txt
+  927  ls -sal
+  928  chmod o-rwx /tmp/file.txt
+  929  ls -sal
+  930  chmod g-rwx /tmp/file.txt
+  931  ls -sal
+  932  chmod 777 /tmp/file.txt
+  933  ls -sal
+  934  ls -sal /tmp/
+  935  chmod 750 /tmp/file.txt
+  936  ls -sal /tmp/
+  937  chmod g-rwx,o-rwx /tmp/file.txt
+  938  ls -sal /tmp/
+  939  chmod 730 /tmp/file.txt
+  940  ls -sal /tmp/
+  941  vi /opt/121225-ptm/vnmad/myfirstbashscript.sh
+  942  mc
+  943  chmod 700 /opt/121225-ptm/vnmad/myfirstbashscript.sh
+  944  ls -l
+  945  vi /opt/121225-ptm/vnmad/myfirstbashscript.sh
+  946  cat /opt/121225-ptm/vnmad/myfirstbashscript.sh >> /tmp/file.txt
+  947  cat /tmp/file.txt
+  948  /opt/121225-ptm/vnmad/myfirstbashscript.sh
+  949  vi /tmp/file.txt
+  950  cat /tmp/file.txt
+  951  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt c/
+  952  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt c:/
+  953  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt c\
+  954  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt .
+  955  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c/Users/VN/Downloads
+  956  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c:/Users/VN/Downloads
+  957  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c/Users/VN/Downloads
+  958  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c/Users/VN/Downloads/
+  959  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt \c\Users\VN\Downloads\
+  960  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c\Users\VN\Downloads\
+  961  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt .
+  962  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /c/
+  963  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt c/
+  964  exit
+  965  history | grep scp
+  966  history
+  967  man ls
+  968  ls
+  969  ls -cl
+  970  ls -clt
+  971  ls -ct
+  972  ls -clt
+  973  man ls
+  974  touch file.txt /tmp/
+  975  ls -la /tmp/file.txt
+  976  df -h | head -3 >> /tmp/file.txt
+  977  cat /tmp/file.txt
+  978  chmod g+wx /tmp/file.txt
+  979  chmod o-rwx
+  980  chmod o-rwx /tmp/file.txt
+  981  ls -la /tmp/file.txt
+  982  touch myfirstbashscript.sh /opt/281125-wdm/nadia_ozbey/
+  983  ls -al /opt/281125-wdm/nadia_ozbey/
+  984  touch /opt/281125-wdm/nadia_ozbey/myfirstbashscript.sh
+  985  ls -la /opt/281125-wdm/nadia_ozbey/myfirstbashscript.sh
+  986  vi /tmp/file.txt
+  987  vi /tmp/nadia_ozbey/file.txt
+  988  df -h | head -3 >> /tmp/nadia_ozbey/file.txt
+  989  vi /tmp/file.txt
+  990  mkdir /tmp/nadia_ozbey
+  991  ls -la /tmp/
+  992  vi /tmp/nadia_ozbey/file.txt
+  993  df -h | head -3 >> /tmp/nadia_ozbey/file.txt
+  994  cat /tmp/nadia_ozbey/file.txt
+  995  chmod g+wr /tmp/nadia_ozbey/file.txt
+  996  chmod o-wrx /tmp/nadia_ozbey/file.txt
+  997  touch tmp/nadia_ozbey/myfirstbashscript.sh
+  998  touch myfirstbashscript.sh tmp/nadia_ozbey/
+  999  touch myfirstbashscript.sh /tmp/nadia_ozbey/
+ 1000  ls -la /tmp/nadia_ozbey/
+ 1001  touch /tmp/nadia_ozbey/myfirstbashscript.sh
+ 1002  ls -la /tmp/nadia_ozbey/
+ 1003  chmod +x /tmp/nadia_ozbey/myfirstbashscript.sh
+ 1004  ls -la /tmp/nadia_ozbey/myfirstbashscript.sh
+ 1005  vi /tmp/nadia_ozbey/myfirstbashscript.sh
+ 1006  cat /tmp/nadia_ozbey/myfirstbashscript.sh >> /tmp/nadia_ozbey/file.txt
+ 1007  cat /tmp/nadia_ozbey/file.txt
+ 1008  history >> /tmp/nadia_ozbey/file.txt
